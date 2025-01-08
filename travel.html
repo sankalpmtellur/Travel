@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Wonders</title>
+    <link rel="stylesheet" href="travel.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="main-header">
+        <nav>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="travel.html">Destinations</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Search Bar Section (States only) -->
+    <section class="search-bar">
+        <select id="state-select" onchange="window.location.href=this.value">
+            <option value="" disabled selected>Select State</option>
+            <option value="andhra-pradesh/andhra-pradesh.html">Andhra Pradesh</option>
+            <option value="arunachal-pradesh/arunachal-pradesh.html">Arunachal Pradesh</option>
+            <option value="assam/assam.html">Assam</option>
+            <option value="bihar/bihar.html">Bihar</option>
+            <option value="goa/goa.html">Goa</option>
+            <option value="gujarat/gujarat.html">Gujarat</option>
+            <option value="haryana/haryana.html">Haryana</option>
+            <option value="himachal-pradesh/himachal-pradesh.html">Himachal Pradesh</option>
+            <option value="karnataka/karnataka.html">Karnataka</option>
+            <option value="kerala/kerala.html">Kerala</option>
+            <option value="madhya-pradesh/madhya-pradesh.html">Madhya Pradesh</option>
+            <option value="maharashtra/maharashtra.html">Maharashtra</option>
+            <option value="manipur/manipur.html">Manipur</option>
+            <option value="meghalaya/meghalaya.html">Meghalaya</option>
+            <option value="mizoram/mizoram.html">Mizoram</option>
+            <option value="nagaland/nagaland.html">Nagaland</option>
+            <option value="odisha/odisha.html">Odisha</option>
+            <option value="punjab/punjab.html">Punjab</option>
+            <option value="rajasthan/rajasthan.html">Rajasthan</option>
+            <option value="sikkim/sikkim.html">Sikkim</option>
+            <option value="tamil-nadu/tamil-nadu.html">Tamil Nadu</option>
+            <option value="telangana/telangana.html">Telangana</option>
+            <option value="tripura/tripura.html">Tripura</option>
+            <option value="uttar-pradesh/uttar-pradesh.html">Uttar Pradesh</option>
+            <option value="uttarakhand/uttarakhand.html">Uttarakhand</option>
+            <option value="west-bengal/west-bengal.html">West Bengal</option>
+        </select>
+    </section>
+
+
+    <!-- Destinations Section -->
+    <section class="destinations">
+        <h2>Top Destinations in India</h2>
+        <div class="destination-grid">
+            <div class="destination">
+                <img src="Images/taj_mahal.png" alt="Taj Mahal">
+                <h3>Taj Mahal, Agra</h3>
+            </div>
+            <div class="destination">
+                <img src="Images/goa_beaches.png" alt="Goa Beach">
+                <h3>Goa Beaches</h3>
+            </div>
+            <div class="destination">
+                <img src="Images/kerala_backwaters.png" alt="Kerala Backwaters">
+                <h3>Kerala Backwaters</h3>
+            </div>
+            <div class="destination">
+                <img src="Images/jaipur_fort.png" alt="Jaipur Fort">
+                <h3>Jaipur Forts</h3>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2025 Travel Wonders | Designed with Love</p>
+    </footer>
+</body>
+</html>
