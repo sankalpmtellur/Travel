@@ -613,7 +613,7 @@ export const states = [
         "desc": "Known as the 'Valley of Flowers of the Northeast,' Dzukou Valley offers breathtaking landscapes and is a trekker's paradise."
       },
       {
-        "img": "/images/states/manipur/shilloi lake.png",
+        "img": "/images/states/manipur/shilloi_lake.png",
         "title": "Shilloi Lake",
         "desc": "A serene and picturesque lake surrounded by lush hills, believed to be sacred by locals."
       },

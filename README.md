@@ -34,9 +34,9 @@ Travel/
       main.jsx
       index.css
     package.json
-  README.md
-  .gitignore
-  vercel.json
+    README.md
+    .gitignore
+    vercel.json
 ```
 
 ## Getting Started
