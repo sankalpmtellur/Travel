@@ -1,0 +1,72 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --paper: #f7f4ef;
+    --paper-2: #efe9df;
+    --ink: #1a1a1a;
+    --muted: #5f5a52;
+    --ocean: #167a8b;
+    --citrus: #f4b35e;
+    --leaf: #3e7b5a;
+    --rose: #d27766;
+    --shadow-soft: 0 18px 60px -40px rgba(16, 14, 11, 0.55);
+    --shadow-card: 0 30px 80px -60px rgba(16, 14, 11, 0.6);
+    --font-display: "Fraunces", serif;
+    --font-body: "Sora", system-ui, -apple-system, sans-serif;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: var(--font-body);
+    color: var(--ink);
+    background:
+      radial-gradient(circle at top left, #fff7ec 0%, transparent 45%),
+      radial-gradient(circle at 30% 20%, #fbe8d1 0%, transparent 40%),
+      linear-gradient(180deg, #fbf8f3 0%, var(--paper) 48%, #f3ece1 100%);
+    min-height: 100vh;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: var(--font-display);
+    letter-spacing: -0.01em;
+    color: var(--ink);
+  }
+
+  a {
+    color: inherit;
+  }
+
+  img {
+    display: block;
+    max-width: 100%;
+  }
+
+  ::selection {
+    background: #f6d2a4;
+  }
+}
+
+@layer utilities {
+  .glass {
+    background: rgba(255, 255, 255, 0.82);
+    backdrop-filter: blur(16px);
+    border: 1px solid rgba(255, 255, 255, 0.6);
+  }
+
+  .section-pad {
+    @apply px-6 py-16 md:px-12 lg:px-20 lg:py-24;
+  }
+
+  .container-max {
+    @apply mx-auto w-full max-w-6xl;
+  }
+}
